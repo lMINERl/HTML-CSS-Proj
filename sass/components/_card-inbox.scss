@@ -1,0 +1,11 @@
+.card_inbox
+{
+    background-color: $white_color;
+    padding: 0.3rem;
+    padding-top: 0.5rem;
+    border-right: 1px solid #eaeaea;
+    // width: 25%;
+    &-container{
+        width: 25%;
+    }
+}

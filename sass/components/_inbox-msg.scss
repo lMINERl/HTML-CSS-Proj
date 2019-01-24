@@ -1,0 +1,40 @@
+.inbox-msg
+  {
+     
+      box-sizing: border-box;
+      color: $gray;
+      background-color: white;
+      @include small-font;
+      border: 1px solid $gray--light;
+      padding: 20px;
+      display:flex;
+      flex-direction: row;
+      border-radius: 15px;
+      &__checker
+      {
+          width: 6%;
+      }
+
+      &__star
+      {
+          width: 5%;
+          color: $golden;
+      }
+
+      &__content
+      {
+          width: 80%;
+          
+          &__title
+          {
+              @include medium-font;
+              font-weight: 700;
+              margin-bottom: 10px;
+          }
+      }
+
+      &__status
+      {
+          text-align: right;
+      }
+  }

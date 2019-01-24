@@ -1,0 +1,32 @@
+.navbar.navbar-expand-lg {
+    padding: 0.6%;
+    background-color: white;
+    #search {
+        padding-left: 10rem;
+        margin-right: -16rem;
+
+        .fa {
+            margin-left: -1rem;
+        }
+    }
+
+    .navbar-right {
+        display: flex;
+        width: 80rem;
+        justify-content: end;
+        // padding-left: 30rem;
+
+        .fa {
+            margin-left: 2rem;
+        }
+    }
+
+    .img-responsive.logo {
+        width: 8rem;
+    }
+
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 0px;
+    
+}

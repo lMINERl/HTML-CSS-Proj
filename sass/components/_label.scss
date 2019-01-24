@@ -1,0 +1,27 @@
+.lbl{
+    background:transparent;
+    border: 1px solid black;
+    color: black;
+    padding: 2px;
+    border-radius: 3px;
+    &-weak{
+        border:1px solid $label-weak-color;
+        color:$label-weak-color;
+    }
+    &-good{
+        border:1px solid $label-good-color;
+        color:$label-good-color;
+    }
+    &-excelent{
+        border:1px solid $label-excelent-color;
+        color:$label-excelent-color;
+    }
+    &-avarage{
+        border:1px solid $label-avarage-color;
+        color:$label-avarage-color;
+    }
+    &.--small 
+    {
+        padding: 0.3rem;
+    }
+}

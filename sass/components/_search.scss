@@ -1,0 +1,30 @@
+.search {
+    .search--text-box {
+        height: 4rem;
+        width: 20rem;
+        font-size: 1.5rem;
+        padding-left: 1rem;
+        border: 1px solid #ced4da;
+
+        &:focus {
+            outline: none;
+            animation-name: search-animate;
+            animation-duration: 1s;
+            animation-direction: normal;
+            animation-fill-mode: both;
+        }
+
+        &.__stop-animation {
+            &:focus {
+                animation-name: none;
+            }
+        }
+    }
+
+    .fa {
+        font-size: 1.5rem;
+        color: rgb(138, 143, 141);
+        margin-left: -3rem;
+        display: ruby;
+    }
+}

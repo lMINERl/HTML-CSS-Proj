@@ -1,0 +1,30 @@
+.container-page-title {
+    padding: 2rem;
+    background-color: #F4F7F6;
+    height: 10rem;
+
+    .page-title {
+        // width: 20%;
+
+        span {
+            padding-left: 2rem;
+            color: #5A5A5A;
+        }
+
+        &--list {
+            li {
+                display: inline-block;
+
+                span {
+                    font-size: 1.5rem;
+                    margin-left: -1rem;
+                    color: #5A5A5A;
+                }
+            }
+
+            .fa {
+                font-size: 2rem;
+            }
+        }
+    }
+}

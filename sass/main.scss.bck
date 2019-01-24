@@ -1,0 +1,197 @@
+*
+{
+    margin: 0px;
+    outline: none;
+}
+.row-view{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+app-table-row{
+    display: flex;
+    flex-direction: column;
+}
+html
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+body
+{
+    font-size: 1.6rem;
+}
+
+#header
+{
+    padding: 4rem 8rem 2rem 8rem;
+    font-size: 3rem;
+    color:rgba(0, 168, 255,1.0);
+}
+
+#container
+{
+    margin: 0rem 8rem 1rem 8rem;
+    min-height:  77vh;
+    display:flex;
+    justify-content: space-between;
+}
+
+#left
+{
+    width: 20.5%;
+    padding: 3rem 1rem;
+}
+
+.label
+{
+    font-size: 2rem;
+    color:rgba(0, 168, 255,1.0); 
+}
+
+#search-text-field, select, .text-field
+{
+    padding: 0.5rem;
+    width: 78%;
+    border: 1px solid rgb(201, 213, 231);
+    border-radius: 5px;
+
+    &:focus
+    {
+        border: 1px solid rgba(0, 168, 255,1.0);
+    }
+}
+
+.text-field
+{
+    width: 30rem;
+}
+
+.btn, .btn-r
+{
+    padding: 4px 4px 0px 4px;
+    height: 3rem;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid  rgba(0, 168, 255,1.0);
+    color: white;
+    background-color:  rgba(0, 168, 255,1.0);
+    cursor: pointer;
+}
+
+.btn-r
+{
+    float: right;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.cat-item
+{
+    margin-bottom: 0.5rem;
+    color: rgb(201, 213, 231);
+    cursor: pointer;
+
+    &:hover
+    {
+        color: rgba(232, 65, 24,1.0);
+    }
+}
+
+#right
+{
+    width: 78.5%;
+    min-height:  77vh;
+    padding: 3rem 1rem 3rem 2rem;
+}
+
+#table-head, .table-row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1.2rem 0 1.2rem 0;
+}
+
+#table-head
+{
+    color: rgba(0, 168, 255,1.0);
+    font-weight: 700;
+    border-bottom: 5px solid rgb(201, 213, 231);
+}
+
+.table-row
+{
+    border-bottom: 1px solid rgb(201, 213, 231);
+}
+
+.id
+{
+    width: 10%;
+}
+
+.main-info
+{
+    width: 25%;
+}
+
+.info-1, .info-2, .info-3
+{
+    width: 15%;  
+}
+
+.id, .main-info, .info-1, .info-2, .info-3
+{
+    overflow: hidden;
+} 
+
+.actions
+{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+#footer
+{
+    background-color: rgba(0, 168, 255,1.0);
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.pop-up
+{
+    position: absolute;
+    width: 50rem;
+    max-height: 60vh;;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    border: 1px solid rgba(0, 168, 255,1.0);
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1rem 1rem rgb(201, 213, 231);
+    overflow: hidden; 
+}
+
+.title
+{
+    background-color: rgba(0, 168, 255,1.0);
+    color: white;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.content
+{
+    padding: 1.5rem;
+}
+
+.line
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.7rem;
+}

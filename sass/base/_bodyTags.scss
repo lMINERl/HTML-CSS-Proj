@@ -1,0 +1,24 @@
+body {
+    border: 6px solid #f68c1f;
+
+    background-color: #F4F7F6;
+}
+
+.page-container {
+    display: flex;
+}
+
+.page-content {
+    width: 100%;
+    background-color: #F4F7F6;
+}
+
+.page-table-content {
+    padding: 2%;
+    border-radius: 8px;
+    // margin-top: 1%;
+    // margin-right: 1%;
+    margin: 1% 1% 0% 1%;
+    box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.2), 5px 5px 10px -5px rgba(0, 0, 0, 0.19);
+    background-color: white;
+}

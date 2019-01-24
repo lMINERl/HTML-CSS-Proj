@@ -1,0 +1,52 @@
+//fonts
+//abstract
+@import 'abstract/functions';
+@import 'abstract/mixins';
+@import 'abstract/placeholders';
+@import 'abstract/variables';
+//base
+@import 'base/animation';
+@import 'base/bodyTags';
+@import 'base/reset';
+@import 'base/titles';
+@import 'base/typography';
+@import 'base/utilities';
+//components
+@import 'components/box';
+@import 'components/button';
+@import 'components/card-inbox';
+@import 'components/card-photo';
+@import 'components/card';
+@import 'components/cardinfo';
+@import 'components/categories';
+@import 'components/category-item';
+@import 'components/dropdown';
+@import 'components/dropdownprofile';
+@import 'components/graph';
+@import 'components/images';
+@import 'components/inbox-msg';
+@import 'components/input';
+@import 'components/label';
+@import 'components/lists';
+@import 'components/pagetitle';
+@import 'components/radio';
+@import 'components/search';
+@import 'components/side_menu';
+@import 'components/table';
+@import 'components/tooltip';
+//layout
+@import 'layout/aligns';
+@import 'layout/body';
+@import 'layout/div';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/hdr';
+@import 'layout/header';
+@import 'layout/navbar';
+@import 'layout/section';
+@import 'layout/sidebar';
+//pages
+@import 'pages/contact';
+@import 'pages/home';
+//vendors
+@import 'vendors/fontawesome';

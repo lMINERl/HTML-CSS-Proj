@@ -1,0 +1,11 @@
+.cat-item
+{
+    margin-bottom: 0.5rem;
+    color: rgb(201, 213, 231);
+    cursor: pointer;
+
+    &:hover
+    {
+        color: rgba(232, 65, 24,1.0);
+    }
+}

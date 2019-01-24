@@ -1,0 +1,56 @@
+.card-profile-container
+{
+    font-family: "Ubuntu",sans-serif;
+    font-size: 1.5rem;
+    color: #444444;
+    width: 30%;
+    height: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    border-radius: .55rem;
+    .card-profile-info
+    {
+        .card--header
+        {
+            .list-circle
+            {
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                color: black;
+                background-color: black;
+            }
+            padding: 2rem;
+            h2
+            {
+                font-size: 2rem;
+                font-weight: 500;
+                line-height: 1.2;
+            }
+        }
+        .card--body
+        {
+            iframe
+            {
+                padding-top: 2rem;
+            }
+            padding: 2rem;
+            hr 
+            {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                border: 0;
+                border-top: 1px solid rgba(0,0,0,.1);
+            }
+            .card--body-text
+            {
+                padding-bottom: 4rem;
+                color: #6c757d;
+                line-height: 2rem;
+            }
+            .social--container
+            {
+                line-height: 3rem;
+            }
+        }
+    }
+}

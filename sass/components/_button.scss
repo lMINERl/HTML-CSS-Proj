@@ -1,0 +1,223 @@
+.btn {
+    // height: 3rem;
+    font-weight: 400;
+    // width: 20px;
+    // border: 1px solid  rgba(0, 168, 255,1.0);
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+    border: 1px solid transparent;
+    outline: none;
+    text-align: center;
+
+
+
+    &.--oval {
+        border-radius: 25px;
+        padding: .6rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+    }
+
+    &.--rectangle {
+        border-radius: 0px;
+        // padding: 0.5rem;
+        color: black;
+        background-color: white;
+        width: auto;
+
+        &.__left {
+            border-bottom-left-radius: 4px;
+            border-top-left-radius: 4px;
+
+        }
+
+        &.__right {
+            border-bottom-right-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+
+        &.__center {
+            border-radius: 0px;
+        }
+    }
+
+    &.--dark {
+        color: #bdbdbd;
+        border-color: #444;
+
+        &.--solid {
+            color: #bdbdbd;
+            background-color: #444;
+        }
+
+        &:hover {
+            color: white;
+            background-color: #333;
+            border: 1px solid #333;
+        }
+    }
+
+    &.--rounded {
+        //years month days
+        border-radius: 50%;
+        padding: 0.6rem 1rem 0.6rem 1rem;
+        color: white;
+        background-color: #f4f7f6;
+        width: auto;
+
+        &:hover {
+            background-color: #01b2c6;
+        }
+    }
+
+    &.--square {
+        // width: 30px;
+        // height: 30px;
+        border-radius: 4px;
+        
+        width: auto;    
+    }
+
+    &.--smoth {
+        border-radius: 4px;
+    }
+
+    &.--transparent {
+        background-color: transparent;
+    }
+
+    &.--green {
+        color: #ffc107;
+        border-color: #ffc107;
+
+        &.--solid {
+            color: white;
+            background-color: #ffc107;
+        }
+
+        &:hover {
+            color: white;
+            background-color: #e0a800;
+            border: 1px solid #e0a800;
+        }
+    }
+
+    &.--gray {
+        color: #6c757d;
+        border-color: #6c757d;
+
+        &.--solid {
+            color: white;
+            background-color: #6c757d;
+        }
+
+        &:hover {
+            color: white;
+            border: 1px solid #585a63;
+            background-color: #585a63;
+        }
+    }
+
+    &.--blue {
+        color: #007bff;
+        border-color: #007bff;
+
+        &.--solid {
+            color: white;
+            background-color: #007bff;
+        }
+
+        &:hover {
+            color: white;
+            background-color: #0069d9;
+            border: 1px solid #0069d9;
+        }
+    }
+
+    &.--red {
+        color: red;
+        border-color: red;
+
+        &.--solid {
+            color: white;
+            background-color: red;
+        }
+
+        &:hover {
+            color: white;
+            background-color: darkred;
+            border: 1px solid darkred;
+        }
+    }
+
+    &.--dark-red {
+        color: #C82333;
+        border-color: #C82333;
+
+        &.--solid {
+            color: white;
+            background-color: #C82333;
+        }
+
+        &:hover {
+            color: white;
+            background-color: rgb(194, 23, 40);
+            border: 1px solid rgb(194, 23, 40);
+        }
+    }
+
+    &.--dark-green {
+        color: #23B684;
+        border-color: #23B684;
+
+        &.--solid {
+            color: white;
+            background-color: #23B684;
+        }
+
+        &:hover {
+            color: white;
+            background-color: #ffb900;
+            border: 1px solid #ffb900;
+        }
+    }
+
+    &.--small {
+        padding: .5rem 1rem;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+    &.--long {
+        font-size: 1.4rem;
+        font-weight: 600;
+        padding-left: 7rem;
+        padding-right: 7rem;
+
+
+    }
+
+
+    &-group {
+        //TODO: stick btns with each other
+        display: flex;
+        flex-direction: row;
+        padding: 15px 0px 15px 0px;
+    }
+
+    &.--disabled {
+        background-color: transparent;
+        border-color: #585a63;
+        color: #585a63;
+
+        &:hover {
+            color: #585a63;
+            background-color: transparent;
+            border-color: #585a63;
+        }
+    }
+
+
+}
