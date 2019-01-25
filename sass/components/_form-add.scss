@@ -1,0 +1,57 @@
+.container-add-new-employee {
+    // width: 35%;
+    // height: 50rem;
+    margin: auto auto;
+
+    .title {
+        margin: 0 auto;
+        font-size: 2rem;
+        color: #5A5A5A;
+    }
+
+    .add-new-employee {
+        border: 1px solid rgba(0, 0, 0, .2);
+        border-radius: .3rem;
+        padding: 1.5rem;
+        background-color: #F4F7F6;
+
+        &--body {
+            .input-group--icon {
+                background-color: #E9ECEF;
+                display: inline-block;
+                padding: 1rem;
+                margin-top: 1.5rem;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+                font-size: 1rem;
+            }
+
+            .fa {
+                font-size: 1.7rem;
+            }
+
+            .fas {
+                font-size: 1.7rem;
+            }
+
+            .fab {
+                font-size: 1.7rem;
+            }
+
+            .form-control {
+                max-width: 100%;
+                display: block;
+                margin-top: 1.5rem;
+                // width: 100%;
+                padding: 2rem .75rem;
+                font-size: 1.5rem;
+                line-height: 1.5;
+                color: #495057;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                border-radius: .25rem;
+            }
+        }
+    }
+}

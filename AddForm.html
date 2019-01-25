@@ -176,186 +176,102 @@
                 </div>
             </div>
             <div class="page-table-content">
-
-                
-
-                <div class="table-head">
-                    <div>
-                        <h1>Employee list</h1>
-                    </div>
-                    <div>
-                        <a href="#" class="btn --rectangle --small --gray --solid --smoth">Add <i class="fas fa-plus"></i></a>
-                    </div>
-                </div>
-                <div class="table-filters">
-                    <form class="search">
-                        <input class="search--text-box __stop-animation" type="search" placeholder="Search here..."
-                            aria-label="Search">
-                        <i class="fa fa-search"></i>
-                    </form>
-                    <div class="btn-group">
-                        <a href="" class="btn --rectangle --dark --solid --small __left">Refresh</a>
-                        <a href="#" class="btn --rectangle --dark --solid --small __center">Move To</a>
-                        <a href="#" class="btn --rectangle --dark --solid --small __center">Mark As</a>
-                        <a href="#" class="btn --rectangle --dark --solid --small __right">Delete</a>
-                    </div>
-                    <div class="btn-group">
-                        <a href="" class="btn --rectangle --blue --transparent --small __left">Prev</a>
-                        <a href="" class="btn --rectangle --blue --transparent --small __center">1</a>
-                        <a href="" class="btn --rectangle --blue --solid --small __center">2</a>
-                        <a href="" class="btn --rectangle --blue --transparent --small __center">3</a>
-                        <a href="" class="btn --rectangle --blue --transparent --small __right">Next</a>
-
-                    </div>
-                </div>
-                <div class="table">
-                    <div class="card_inbox-container">
-                        <div class="card_inbox">
-                            <div class="align-text-center">
-                                <button class="btn --rectangle --dark-red --solid --long --smoth">Compose</button>
-                            </div>
-                            <ul class="list_items --list_inbox">
-                                <li><a href=""><i class="far fa-envelope"></i><span>inbox</span></a> <label class="lbl lbl-good --small">2</label></li>
-                                <li><a href=""><i class="fas fa-location-arrow"></i><span>sent</span></a><label class="lbl lbl-avarge --small">3</label></li>
-                                <li><a href=""><i class="far fa-envelope-open"></i><span>draft</span></a></li>
-                                <li><a href=""><i class="fas fa-sign-out-alt"></i><span>outbox</span></a></li>
-                                <li><a href=""><i class="far fa-star"></i><span>starred</span></a></li>
-                                <li><a href=""><i class="fas fa-trash"></i><span>trash</span></a><label class="lbl lbl-weak --small">6</label></li>
-                            </ul>
-
+                <!-- Add New Employee Form -->
+                <div class="container-add-new-employee">
+                    <div class="add-new-employee">
+                        <div class="add-new-employee--header">
+                            <h6 class="title">Add Contact</h6>
                         </div>
-                    </div>
-                    <div class="table-container">
-                        <div class="table--head">
-                            <div class="table--head--cell item col">
-                                <label class="container">
-                                    <input type="checkbox" checked="checked">
-                                    <span class="checkmark"></span>
-                                </label>
-                                <div class="table-sorting-arrow">
-                                    <i class="fas fa-long-arrow-alt-up"></i>
-                                    <i class="fas fa-long-arrow-alt-down"></i>
+                        <hr>
+                        <div class="add-new-employee--body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fas fa-file-signature"></i>
+                                        </div>
+                                        <input class="form-control" type="text" placeholder="Name">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="table--head--cell item col">
-                                <div>Name</div>
-                                <div class="table-sorting-arrow">
-                                    <i class="fas fa-long-arrow-alt-up"></i>
-                                    <i class="fas fa-long-arrow-alt-down"></i></div>
-                            </div>
-
-
-                            <div class="table--head--cell item col">
-                                <div>Employee ID</div>
-                                <div class="table-sorting-arrow">
-                                    <i class="fas fa-long-arrow-alt-up"></i>
-                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fas fa-at"></i>
+                                        </div>
+                                        <input class="form-control" type="email" placeholder="Email ID">
+                                    </div>
                                 </div>
-
-                            </div>
-
-                            <div class="table--head--cell item col">
-                                <div>Phone</div>
-                                <div class="table-sorting-arrow">
-                                    <i class="fas fa-long-arrow-alt-up"></i>
-                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                <div class="col-12">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fa fa-phone"></i>
+                                        </div>
+                                        <input class="form-control" type="tel" placeholder="Phone Number">
+                                    </div>
                                 </div>
-
-                            </div>
-
-                            <div class="table--head--cell item col">
-                                <div>Join Date</div>
-                                <div class="table-sorting-arrow">
-                                    <i class="fas fa-long-arrow-alt-up"></i>
-                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fas fa-sort-numeric-down"></i>
+                                        </div>
+                                        <input class="form-control" type="text" placeholder="Employee ID">
+                                    </div>
                                 </div>
-
-                            </div>
-
-                            <div class="table--head--cell item col">
-                                <div>Role</div>
-                                <div class="table-sorting-arrow">
-                                    <i class="fas fa-long-arrow-alt-up"></i>
-                                    <i class="fas fa-long-arrow-alt-down"></i>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fa fa-calendar-alt"></i>
+                                        </div>
+                                        <input class="form-control" type="date" placeholder="Join Date">
+                                    </div>
                                 </div>
-
-                            </div>
-
-                            <div class="table--head--cell item col">
-                                Action
-                            </div>
-                        </div>
-
-
-
-                        <div class="table--row table--row--white">
-
-                            <div class="table--row--white item col">
-                                <label class="container">
-                                    <input type="checkbox" checked="checked">
-                                    <span class="checkmark"></span>
-                                </label>
-
-                            </div>
-                            <div class="table--row--white item col">
-                                Name
-                                <p>mail@gmail.com</p>
-                            </div>
-
-                            <div class="table--row--white item col">
-                                Employee ID
-                            </div>
-
-                            <div class="table--row--white item col">
-                                Phone
-                            </div>
-
-                            <div class="table--row--white item col">
-                                Join Date
-                            </div>
-
-                            <div class="table--row--white item col">
-                                Role
-                            </div>
-
-                            <div class="table--row--white item col">
-                                <div class="table--row-action">
-                                    <a href="" class="btn --square --dark-green --transparent --small --smoth"><i class="far fa-eye"></i></a>
-                                    <a href="" class="btn --square --blue --transparent --small --smoth"><i class="fas fa-edit"></i></a>
-                                    <a href="" class="btn --square --red --transparent --small --smoth"><i class="fas fa-trash-alt"></i></a>
+                                <div class="col-md-4">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fas fa-scroll"></i>
+                                        </div>
+                                        <input class="form-control" type="text" placeholder="Role">
+                                    </div>
+                                </div>
+                                <hr>
+                                <div class="col-6">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </div>
+                                        <input class="form-control" type="email" placeholder="Facebook">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </div>
+                                        <input class="form-control" type="email" placeholder="Twitter">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fab fa-linkedin"></i>
+                                        </div>
+                                        <input class="form-control" type="email" placeholder="Linkedin">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="input-group">
+                                        <div class="input-group--icon">
+                                            <i class="fab fa-instagram"></i>
+                                        </div>
+                                        <input class="form-control" type="email" placeholder="Instagram">
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="inbox-msg">
-                            <div class="inbox-msg__checker">
-                                <label class="container">
-                                    <input type="checkbox" checked="checked">
-                                    <span class="checkmark"></span>
-                                </label>
-                            </div>
-                            <div class="inbox-msg__star">
-                                <i class="far fa-star"></i>
-                            </div>
-                            <div class="inbox-msg__content">
-                                <div class="inbox-msg__content__title">Mogan Freigman</div>
-                                <div class="inbox-msg__content__summary">
-                                    <span class="inbox-msg__content__summary__sender">[ThemeForest]</span>&nbsp;&nbsp;
-                                    <span class="inbox-msg__content__summary__text">Lorem Ipsum is simply dummy text of
-                                        the
-                                        printing ...</span>
-                                </div>
-                            </div>
-                            <div class="inbox-msg__status">
-                                <span class="inbox-msg__status__attachments">
-                                    <i class="fas fa-paperclip"></i>
-                                </span>
-                                <span class="inbox-msg__status__time">23 JAN</span>
-                                <div class="table--row-action">
-                                    <a href="" class="btn --square --dark-green --solid --small --smoth"><i class="far fa-eye"></i></a>
-                                    <a href="" class="btn --square --red --solid --small --smoth"><i class="fas fa-trash-alt"></i></a>
-                                </div>
-                            </div>
+                        <hr>
+                        <div class="align-text-right">
+                            <a href="" class="btn --rectangle --smoth --blue --solid --small">Done</a>
+                            <a href="" class="btn --rectangle --smoth --gray --solid --small">Cancel</a>
                         </div>
                     </div>
                 </div>

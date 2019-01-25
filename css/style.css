@@ -261,6 +261,44 @@ body {
   margin-top: -2rem;
   padding-left: 2rem; }
 
+.container-add-new-employee {
+  margin: auto auto; }
+  .container-add-new-employee .title {
+    margin: 0 auto;
+    font-size: 2rem;
+    color: #5A5A5A; }
+  .container-add-new-employee .add-new-employee {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: .3rem;
+    padding: 1.5rem;
+    background-color: #F4F7F6; }
+    .container-add-new-employee .add-new-employee--body .input-group--icon {
+      background-color: #E9ECEF;
+      display: inline-block;
+      padding: 1rem;
+      margin-top: 1.5rem;
+      border: 1px solid #ced4da;
+      border-radius: .25rem;
+      font-size: 1rem; }
+    .container-add-new-employee .add-new-employee--body .fa {
+      font-size: 1.7rem; }
+    .container-add-new-employee .add-new-employee--body .fas {
+      font-size: 1.7rem; }
+    .container-add-new-employee .add-new-employee--body .fab {
+      font-size: 1.7rem; }
+    .container-add-new-employee .add-new-employee--body .form-control {
+      max-width: 100%;
+      display: block;
+      margin-top: 1.5rem;
+      padding: 2rem .75rem;
+      font-size: 1.5rem;
+      line-height: 1.5;
+      color: #495057;
+      background-color: #fff;
+      background-clip: padding-box;
+      border: 1px solid #ced4da;
+      border-radius: .25rem; }
+
 dl {
   display: flex;
   background-color: white;
@@ -971,6 +1009,9 @@ dt {
 
 .align-text-center {
   text-align: center; }
+
+.align-text-right {
+  text-align: right; }
 
 .header {
   padding: 4rem 8rem 2rem 8rem;
