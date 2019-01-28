@@ -1,6 +1,7 @@
 .navbar.navbar-expand-lg {
     padding: 0.6%;
     background-color: white;
+
     #search {
         padding-left: 10rem;
         margin-right: -16rem;
@@ -26,7 +27,28 @@
     }
 
 }
-.navbar-expand-lg .navbar-nav .nav-link{
+
+.navbar-expand-lg .navbar-nav .nav-link {
     padding: 0px;
-    
+
+}
+
+.nav-item {
+    overflow: hidden;
+    text-align: center;
+
+    &.dropdown {
+        text-align: left;
+        overflow: unset;
+    }
+
+    &:hover .dropdown-profile {
+        display: block;
+
+    }
+
+    & .dropdown-profile {
+        display: none;
+
+    }
 }

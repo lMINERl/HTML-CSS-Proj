@@ -1,0 +1,65 @@
+.card_photo
+{
+    background-color: $white_color;
+    padding: 3rem;
+    width: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    border-radius: 0.55rem;
+    margin: 2rem;
+    .btn_card_photo
+    {
+        padding-top:1.5rem; 
+    }
+    .icons_card_photo
+    {
+        padding-top: 0rem;
+    }
+  .img-cardphoto
+  {
+    overflow: hidden;
+    .img_card_photo
+    {
+        height: 20rem;
+        background-image: url('../images/blog-page-1.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        &:hover 
+    {
+        transform: scale(1.2);
+        transition-duration: 2s;
+         
+    }
+        
+    }
+    
+
+  }
+    
+    .heading
+    {
+       h3 
+       {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 3.5rem;
+        &:hover 
+       {
+           cursor: pointer;
+       }
+       }
+       
+       
+    }
+    .paragraph
+    {
+        font-size: 16px;
+        line-height: 26px;
+        font-weight: 300;
+        color: #909090;
+    }
+    
+  
+    
+}
