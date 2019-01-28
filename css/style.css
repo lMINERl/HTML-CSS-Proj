@@ -11,6 +11,7 @@ body {
   display: flex; }
 
 .page-content {
+  margin-bottom: 4%;
   width: 100%;
   background-color: #F4F7F6; }
 
@@ -31,8 +32,7 @@ html {
 
 body {
   display: block;
-  font-size: 1.6rem;
-  height: 100vh; }
+  font-size: 1.6rem; }
 
 .title-label {
   font-size: 2rem;
@@ -151,7 +151,6 @@ body {
       background-color: #ffb900;
       border: 1px solid #ffb900; }
   .btn.--small {
-    padding: .5rem 1rem;
     font-size: 1.4rem;
     font-weight: 600; }
   .btn.--long {
@@ -974,6 +973,56 @@ dt {
     .table--row--white {
       padding: 0.4em 0.7em;
       background-color: white; }
+
+.task-container {
+  width: 100%;
+  font-family: ubuntu;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  color: #444444;
+  background-color: #fafbfd;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .task-container__col {
+    width: 22%;
+    padding: 10px 0px; }
+    .task-container__col__title {
+      padding: 10px 0px 10px 0px;
+      border-bottom: 2px solid #f68c1f; }
+      .task-container__col__title__text {
+        font-weight: 700; }
+      .task-container__col__title__no {
+        color: #9a9a9a; }
+    .task-container__col__input {
+      margin-top: 10px;
+      box-shadow: 5px 5px 10px -5px #ced4da; }
+      .task-container__col__input input {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+        font-weight: 500;
+        border: 0.5px solid #ced4da;
+        border-radius: 2px; }
+        .task-container__col__input input::placeholder {
+          color: #0073ee;
+          font-weight: 700; }
+    .task-container__col__output {
+      padding: 15px;
+      border: 0.5px solid #ced4da;
+      border-radius: 2px;
+      margin-top: 10px;
+      background-color: white;
+      box-shadow: 5px 5px 10px -5px #ced4da; }
+      .task-container__col__output__text {
+        margin-bottom: 5px; }
+      .task-container__col__output__status {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; }
+        .task-container__col__output__status__date {
+          color: #0073ee; }
 
 .tooltip {
   position: relative;
