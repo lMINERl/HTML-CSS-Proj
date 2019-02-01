@@ -1,18 +1,26 @@
 .table {
-    &-container{
+    &-container {
         width: 100%;
     }
+
     width: 100%;
     font-size: 0.9em;
     display: flex;
-    &-filters{
-        display:  flex;
+
+    &-filters {
+        display: flex;
         justify-content: space-between;
     }
+
     &-head {
         display: flex;
         justify-content: space-between;
         padding: 2% 1%;
+    }
+
+    &-footer {
+        width: 15%;
+        margin: 0 auto;
     }
 
     i {
@@ -66,7 +74,7 @@
         &--white {
             padding: 0.4em 0.7em;
             background-color: white;
-            // padding-left: 1.5%;
+            padding-left: 2%;
 
         }
 

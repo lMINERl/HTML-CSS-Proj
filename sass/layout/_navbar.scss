@@ -1,7 +1,11 @@
 .navbar.navbar-expand-lg {
     padding: 0.6%;
     background-color: white;
-
+    position: fixed;
+    z-index: 1;
+    width: 99%;
+    border-top: 6px solid #f68c1f;
+    margin-top: -7px;
     #search {
         padding-left: 10rem;
         margin-right: -16rem;
@@ -28,10 +32,6 @@
 
 }
 
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 0px;
-
-}
 
 .nav-item {
     overflow: hidden;
