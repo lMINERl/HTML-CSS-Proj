@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- <script src="main.js"></script> -->
+</head>
+
+<body>
+
+
+
+    <!-- <div> -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <div class="navbar-brand">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="logo" class="img-responsive logo">
+                </a>
+            </div>
+            <form class="search">
+                <input class="search--text-box" type="search" placeholder="Search here..." aria-label="Search">
+                <i class="fa fa-search"></i>
+            </form>
+            <div class="navbar-right">
+                <!-- <form class="form-inline my-2 my-lg-0" id="search">
+                                                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                                                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                                                                </form> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-menu">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+
+                                <a class="nav-link" href="#">
+                                    Calendar
+                                    <i class="fa fa-calendar"></i>
+                                    <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    My Mail
+                                    <i class="fa fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Task Notifications
+                                    <i class="fa fa-bell"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Settings
+                                    <i class="fa fa-sliders"></i>
+                                </a>
+                                <div class="dropdown-profile">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-user"></i>
+                                                MyProfile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-envelope-open"></i>
+                                                Messages
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-cog"></i>
+                                                Settings</a></li><a href="#">
+                                        </a>
+                                        <hr>
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-power-off"></i>
+                                                Logout</a></li><a href="#">
+                                        </a>
+                                    </ul>
+                                </div>
+                                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                                        <a class="dropdown-item" href="#">Action</a>
+                                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                                        <div class="dropdown-divider"></div>
+                                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                                    </div> -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- </div> -->
+    <div class="page-container">
+        <div class="side_menu">
+            <div class=" row no-gutters side_menu_welcome">
+
+                <div class="col side_menu_welcome_img">
+                    <img src="images/gambit - Copy.jpg">
+                </div>
+                <div class="col side_menu_welcome_name">
+                    <span>welcome</span>
+                    <h6><a href="#">Arnold Billinton Cmice</a></h6>
+
+                </div>
+            </div>
+            <hr>
+            <div class="tabs">
+                <div class="row no-gutters">
+                    <div class="col">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                                    aria-controls="home" aria-selected="true">My Work</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                                    aria-controls="profile" aria-selected="false">Mail box</a>
+                            </li>
+
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <ul class="list_items --listside_menu">
+                                    <li><i class="far fa-clock"></i><span>My Tasks</span></li>
+                                    <li><i class="fas fa-list-ul"></i><span>Projects</span></li>
+                                    <li><i class="fas fa-calendar-alt"></i><span>Calendar</span></li>
+                                    <li id="emp">
+                                        <i class="fas fa-globe"></i>
+                                        <span class="employee">Departments</span>
+
+                                        <div class="list_items --listside_menu-label">
+                                            <i class="fas fa-caret-right"></i>
+                                        </div>
+                                    </li>
+
+                                    <div class="dropdown_list">
+                                        <ul class="list_items --listside_menu_dropdown">
+                                            <li><span>--</span>Add Department</li>
+                                            <li><span>--</span>Departments view<div class="list_items --listside_menu-label">
+                                                    <i class="fas fa-caret-right"></i>
+                                                </div>
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                    <li><i class="fas fa-briefcase"></i><span>My Employees</span></li>
+                                    <li><i class="far fa-chart-bar"></i><span>reports</span></li>
+                                    <li><i class="fas fa-user"></i><span>Users</span></li>
+                                    <li><i class="fas fa-unlock-alt"></i><span>Authorization</span></li>
+
+
+                                </ul>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page-content row no-gutters">
+            <div class="container-page-title col-md-12">
+                <div class="page-title">
+                    <h2>
+                        <a href="#"><i class="fa fa-arrow-left"></i></a>
+                        <span>Department</span>
+                    </h2>
+                    <ul class="page-title--list">
+                        <li>
+                            <a href="index.html">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <span>/ Departments View</span>
+                        </li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+
+            <div class="col-md-7">
+                <div class="card_photo">
+                    <div class="row">
+                        <div class="col-xs-12">
+
+
+                            <div class="row no-gutters">
+                                <div class="heading">
+                                    <h3>Department of Health</h3>
+                                </div>
+
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="paragraph">
+                                    <h3>Aim</h3>
+                                    <p>DoH's overall aim and mission is to "improve the health and social well-being of
+                                        the people of Northern Ireland</p>
+                                    <h3>Responsabilites</h3>
+                                    <p>The Minister, assisted by the department, makes policy and legislation in three
+                                        broad areas:</p>
+                                    <ul>
+
+                                        <li>health and social care – hospitals, family practitioner services and
+                                            community health and personal social services</li>
+                                        <li>public health – promoting and protecting the health and well-being of the
+                                            population</li>
+                                        <li>public safety – the Northern Ireland Fire and Rescue Service (commonly
+                                            known by its former name, the Northern Ireland Fire Brigade) but not the
+                                            Police Service of Northern Ireland or HM Coastguard.</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="row no-gutters">
+                                <div class="col-md btn_card_photo">
+
+                                    <div class="col-md icons_card_photo">
+                                        <ul class="list_items list_items-social">
+                                            <li>Edit<i class="fas fa-pen"></i></li>
+                                            <li>Clear <i class="fas fa-eraser"></i></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-1
+            "></div>
+            <div class="card-profile-container col-md-3">
+                <div class="card-profile-info">
+                    <div class="card--header">
+                        <h2>Info</h2>
+                    </div>
+                    <div class="card--body">
+                        <small class="card--body-text">Address</small>
+                        <p>795 Folsom Ave, Suite 600 San Francisco, 94107<a class="btn"><i class="fas fa-pen"></i></a></p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1923731.7533500232!2d-120.39098936853455!3d37.63767091877441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1522391841133"
+                            style="border:0" allowfullscreen="" width="100%" height="150" frameborder="0"></iframe>
+                        <hr>
+                        <small class="card--body-text">Department Email address</small>
+                        <p>me@example.com <a class="btn"><i class="fas fa-pen"></i></a></p>
+
+
+
+                        <hr>
+                        <small class="card--body-text">Founded in</small>
+                        <p>October 22th, 1990</p>
+                        <hr>
+                        <div class="social--container">
+                            <small class="card--body-text">Department Manager</small>
+                            <p>
+                                <a href="#">John Smith
+                                </a><a class="btn"><i class="fas fa-pen"></i></a></p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

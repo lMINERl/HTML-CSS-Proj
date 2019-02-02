@@ -14,7 +14,8 @@ body {
 .page-content {
   margin-bottom: 4%;
   width: 100%;
-  background-color: #F4F7F6; }
+  background-color: #F4F7F6;
+  min-height: 100vh; }
 
 .page-table-content {
   padding: 2%;
@@ -232,6 +233,10 @@ img {
       margin: 2rem 0;
       vertical-align: middle;
       border-style: none; }
+      .card-client__body__image.--small {
+        width: 4rem;
+        margin: 0px;
+        float: right; }
   .card-client__btn {
     margin-top: 1.5rem; }
 
@@ -287,10 +292,9 @@ img {
   font-size: 1.5rem;
   color: #444444;
   width: 30%;
-  height: 100%;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
   border-radius: .55rem;
-  margin-left: 3rem; }
+  margin: 2rem; }
   .card-profile-container .card-profile-info {
     background-color: white; }
     .card-profile-container .card-profile-info .card--header {
@@ -332,6 +336,10 @@ img {
   margin-top: -2rem;
   padding-left: 2rem; }
 
+.dropdown-menu {
+  font-size: 1.5rem;
+  text-align: center; }
+
 .dropdown-profile {
   position: absolute;
   padding: 4rem 4rem 4rem 0rem;
@@ -370,7 +378,8 @@ img {
       margin-top: 1.5rem;
       border: 1px solid #ced4da;
       border-radius: .25rem;
-      font-size: 1rem; }
+      font-size: 1rem;
+      font-weight: 700; }
     .container-add-new-employee .add-new-employee--body .fa {
       font-size: 1.7rem; }
     .container-add-new-employee .add-new-employee--body .fas {
