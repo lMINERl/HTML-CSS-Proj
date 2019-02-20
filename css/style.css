@@ -222,7 +222,8 @@ img {
   border: 0;
   width: 100%;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-  padding: 1rem; }
+  padding: 1rem;
+  margin: 2rem; }
   .card-client__body {
     color: #444;
     padding: 20px;
@@ -1078,7 +1079,6 @@ dt {
     .table--row--white {
       padding: 0.4em 0.7em;
       background-color: white;
-      padding-left: 2%;
       text-align: center; }
 
 .task-container {
